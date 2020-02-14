@@ -1,0 +1,52 @@
+--Instalar dependências
+  ->Webpack; 
+  ->Babel;
+  ->Webpack Dev Server;
+  ->ReactJS.
+
+yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+
+yarn add react react-dom
+
+--Criar arquivo 'babel.config.js' na pasta raiz
+  ->Configurar arquivo
+
+--Criar pasta 'src'
+  ->Criar arquivo 'index.js'
+  ->Criar arquivo 'App.js'
+
+--Criar pasta 'public'
+  ->Criar arquivo 'index.html'
+
+--Instalar extensão 'babel-loader'
+
+yarn add babel-loader -D
+
+--Instalar extensão 'webpack-dev-server'
+
+yarn add webpack-dev-server -D
+
+--Instalar extensão 'style-loader' e 'css-loader'
+
+yarn add style-loader css-loader
+
+--Instalar extensão 'file-loader'
+
+yarn add file-loader -D
+
+--Criar arquivo 'webpack.config.js' na pasta raiz
+  ->Configurar arquivo
+
+--Criar no arquivo 'package.json' os scripts:
+  ->"build": "webpack --mode development"
+  ->"dev": "webpack-dev-server --mode development"
+
+--Instalar plugin 'plugin-proposal-class-properties"
+
+yarn add @babel/plugin-proposal-class-properties -D
+
+--Adionar plugin no arquivo 'babel.config.js'
+
+--Instalar extensão 'prop-types'
+
+yarn add prop-types
