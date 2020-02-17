@@ -50,3 +50,8 @@ yarn add @babel/plugin-proposal-class-properties -D
 --Instalar extensão 'prop-types'
 
 yarn add prop-types
+
+--Criar arquivo 'App.js'
+
+--Criar arquivo 'App.css'
+

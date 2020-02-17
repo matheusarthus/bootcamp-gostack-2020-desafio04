@@ -1,0 +1,11 @@
+form {
+  position: absolute;
+  width: 725px;
+  height: 980px;
+  left: 150px;
+  top: 90px;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  box-sizing: border-box;
+}

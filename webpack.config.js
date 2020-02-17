@@ -9,7 +9,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
   },
-  mudule: {
+  module: {
     rules: [
       {
         test: /\.js$/,
