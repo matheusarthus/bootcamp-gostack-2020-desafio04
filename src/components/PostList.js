@@ -19,7 +19,6 @@ class PostList extends Component {
 
     render() {
       return (
-        <form>
           <ul>
             {
               this.state.posts.map(post => (
@@ -27,7 +26,6 @@ class PostList extends Component {
                 ))
             }
           </ul>
-        </form>
       );
     }
 
